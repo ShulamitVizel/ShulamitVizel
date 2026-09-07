@@ -127,20 +127,6 @@ I'm developing **Psychology-driven AI solutions for safer, smarter driving**:
 
 ---
 
-## 🤝 Let's Connect & Collaborate!
-
-I'm passionate about collaborating on:
-
-🧠 **AI & Psychology Projects** - Especially those applying GenAI to behavioral science  
-🚗 **DriveTech & Safety** - Intelligent transportation solutions  
-🚀 **Full-Stack Development** - Building scalable, intelligent applications  
-🐳 **DevOps & Infrastructure** - Containerization and deployment automation  
-📚 **Open-Source** - Contributing to projects that advance AI and developer tools  
-
-Feel free to explore my repositories and reach out for discussions, collaborations, or just to chat about the intersection of AI and psychology!
-
----
-
 ## 📌 Quick Links
 
 - 🔗 [GitHub Profile](https://github.com/ShulamitVizel)
@@ -151,4 +137,4 @@ Feel free to explore my repositories and reach out for discussions, collaboratio
 
 **Building the future where AI understands human psychology. 🧠✨**
 
-**Thanks for visiting! Let's create something amazing together! 🚀**
+**Thanks for visiting! 🚀**
