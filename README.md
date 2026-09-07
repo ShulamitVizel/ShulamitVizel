@@ -1,140 +1,74 @@
-# Hi there! 👋 I'm Shulamit Vizel
-
-**Full-Stack Developer | DevOps Enthusiast | GenAI Specialist**
-
-Welcome to my GitHub profile! I'm a passionate full-stack developer with deep expertise in DevOps and a professional focus on leveraging **Generative AI for psychological applications** in driver technology. I build innovative, scalable solutions that merge cutting-edge technology with human-centered design.
-
+# Hi, I'm Shulamit Vizel 👋
+ 
+**Full-Stack Developer · Cloud Infrastructure · Applied GenAI**
+ 
+I build and operate the platform side of an employee wellness and resilience product — frontend, backend, data integrations, and the AWS infrastructure underneath it.
+ 
 ---
-
-## 🚀 About Me
-
-I'm a full-stack developer specializing in:
-- **Generative AI Applications** - Developing intelligent systems for behavioral analysis and psychological insights
-- **Full-Stack Web Development** - Creating end-to-end solutions from frontend to backend
-- **DevOps & Infrastructure** - Automating deployments and managing scalable cloud infrastructure
-- **Psychology Tech** - Building tools at the intersection of AI and psychology for safety-critical applications like driver behavior analysis
-
-My current work focuses on developing **psychological AI applications for DriveTech**, helping create smarter, safer driving experiences through intelligent behavioral analysis and personalized interventions.
-
+ 
+## What I'm working on
+ 
+I'm a full-stack developer at **DriveTech**, working on **Drivezone**, a platform that helps organizations measure and support employee wellness and resilience.
+ 
+My work spans three areas:
+ 
+**Product development**
+Frontend and backend for Drivezone (`drivezone_front` / `drivezone_back`). React with RTK Query on the client, Node.js and TypeScript on the server. Recent work includes the Inspiration & Enrichment library feature, and building an internal Kanban board for team task management.
+ 
+**Data integrations**
+Designing and building a connector framework that pulls data from the systems organizations already run — HR, ERP/CRM, shift management, and financial systems — and uses it to enrich employee resilience scoring. I chose to build a Zapier-inspired internal framework (webhook and API based, multi-tenant by `org_id`) rather than depend on a third-party automation layer, so tenant data boundaries and transformation logic stay under our control.
+ 
+Because this pipeline handles employee and manager data, compliance is part of the design rather than an afterthought: Israeli Privacy Protection Amendment 13, GDPR, and HIPAA-adjacent handling requirements shape what gets ingested, stored, and exposed.
+ 
+**Cloud infrastructure**
+I own the AWS estate for both development and production — account structure under AWS Organizations, IAM roles and access boundaries, EC2, and cost control. One example: automated AWS Budget Actions that detach Bedrock access when spend crosses a threshold, so an experiment can't quietly burn a month of budget.
+ 
 ---
-
-## 🎯 Professional Focus
-
-### 🧠 **Generative AI for Psychology & DriveTech**
-
-I'm pioneering the use of GenAI to understand and support driver psychology:
-- Building AI-powered systems for driver behavior analysis
-- Developing personalized psychological interventions for safer driving
-- Creating intelligent systems that understand driver stress, fatigue, and decision-making patterns
-- Leveraging LLMs for real-time coaching and safety recommendations
-
-This unique intersection of **AI, psychology, and transportation** represents the future of intelligent safety systems.
-
+ 
+## Tech I work with
+ 
+**Languages & runtimes** — TypeScript, JavaScript, Node.js, Python, Bash
+ 
+**Frontend** — React, Redux Toolkit / RTK Query, working from Figma designs
+ 
+**Backend & data** — REST APIs, webhook-based integrations, multi-tenant data modeling
+ 
+**Cloud & DevOps** — AWS (Organizations, IAM, EC2, Budgets, Bedrock), Docker, CI/CD
+ 
+**AI** — LLM-backed features on Amazon Bedrock, agent-style architectures, Claude Code as part of my daily development workflow
+ 
 ---
-
-## 📚 My Projects
-
-### 🎓 **Learning & Educational Platforms**
-
-- **[AI-Learning-Platform](https://github.com/ShulamitVizel/AI-Learning-Platform)** (TypeScript)
-  - A comprehensive learning platform leveraging AI technologies for enhanced educational experiences
-  
-- **[learning-platform-frontend](https://github.com/ShulamitVizel/learning-platform-frontend)** (TypeScript)
-  - Frontend implementation of an advanced learning platform with modern UI/UX practices
-
-- **[Yedidim-Final-Project](https://github.com/ShulamitVizel/Yedidim-Final-Project)**
-  - A comprehensive final project showcasing full-stack development capabilities
-
-### 🛍️ **E-Commerce & Web Applications**
-
-- **[Mac-Online-Shop](https://github.com/ShulamitVizel/Mac-Online-Shop)** (JavaScript)
-  - A fully-featured online shop application with complete e-commerce functionality and user-friendly interface
-
-### 🎮 **Games & Interactive Applications**
-
-- **[Cows and Bulls](https://github.com/ShulamitVizel/cows-and-bulls)** (TypeScript)
-  - An interactive number-guessing game demonstrating algorithmic thinking and engaging user experiences
-
-### 🐳 **DevOps & Infrastructure**
-
-- **[DevOps MBJ Frontend](https://github.com/ShulamitVizel/devops_mbj_frontend)** (Shell)
-  - Infrastructure automation and deployment scripts for frontend services
-
-- **[DevOps MBJ Backend](https://github.com/ShulamitVizel/devops_mbj_backend)** (JavaScript)
-  - Backend infrastructure management and containerization solutions
-
-- **[dockerHM](https://github.com/ShulamitVizel/dockerHM)** (JavaScript)
-  - Docker-based project demonstrating containerization best practices
-
-- **[dockerProject](https://github.com/ShulamitVizel/dockerProject)** (HTML)
-  - Docker deployment project showcasing infrastructure automation
-
+ 
+## Projects
+ 
+**Learning platforms**
+ 
+- **[AI-Learning-Platform](https://github.com/ShulamitVizel/AI-Learning-Platform)** (TypeScript) — a learning platform built around AI-assisted study flows
+- **[learning-platform-frontend](https://github.com/ShulamitVizel/learning-platform-frontend)** (TypeScript) — the client side of the same system
+- **[Yedidim-Final-Project](https://github.com/ShulamitVizel/Yedidim-Final-Project)** — full-stack final project
+**Web applications**
+ 
+- **[Mac-Online-Shop](https://github.com/ShulamitVizel/Mac-Online-Shop)** (JavaScript) — e-commerce application with catalog, cart, and checkout flow
+- **[Cows and Bulls](https://github.com/ShulamitVizel/cows-and-bulls)** (TypeScript) — number-guessing game
+**Containers & deployment**
+ 
+- **[devops_mbj_frontend](https://github.com/ShulamitVizel/devops_mbj_frontend)** (Shell) — deployment scripting for frontend services
+- **[devops_mbj_backend](https://github.com/ShulamitVizel/devops_mbj_backend)** (JavaScript) — backend infrastructure and containerization
+- **[dockerHM](https://github.com/ShulamitVizel/dockerHM)** (JavaScript) · **[dockerProject](https://github.com/ShulamitVizel/dockerProject)** (HTML) — Docker containerization exercises
 ---
-
-## 💻 Tech Stack & Expertise
-
-**Languages & Frameworks:**
-- TypeScript / JavaScript
-- Python (for AI/ML and backend)
-- HTML/CSS
-- Shell/Bash
-
-**AI & Machine Learning:**
-- Generative AI / LLMs
-- Natural Language Processing
-- Behavioral Analytics
-- Psychological AI Applications
-
-**DevOps & Cloud:**
-- Docker & Container Orchestration
-- CI/CD Pipelines
-- Cloud Infrastructure
-- Infrastructure as Code
-
-**Development:**
-- Full-Stack Web Development
-- Frontend Development (React, modern frameworks)
-- Backend Development (Node.js, scalable APIs)
-- Database Design & Optimization
-
+ 
+## How I like to work
+ 
+I'm most useful where product and infrastructure meet: the features people actually use, plus the pipelines, permissions, and cost controls that keep them running. I'd rather ship something small that holds up in production than something ambitious that needs constant hand-holding.
+ 
+Based in Israel. Working across Hebrew and English.
+ 
 ---
-
-## 🧭 Current Work at DriveTech
-
-I'm developing **Psychology-driven AI solutions for safer, smarter driving**:
-
-✨ Building genAI systems that understand driver behavior patterns  
-🧠 Creating psychological profiles for personalized safety interventions  
-🚗 Developing real-time AI coaching for drivers  
-📊 Analyzing behavioral data to improve driver safety and well-being  
-💡 Merging psychology, AI, and transportation technology  
-
----
-
-## 🎯 What Drives Me
-
-✨ **Innovative Technology** - Leveraging GenAI to solve real-world problems  
-🧠 **Psychology + Tech** - Understanding human behavior through intelligent systems  
-🚀 **Safety & Impact** - Building solutions that make a tangible difference in people's lives  
-🐳 **Scalable Infrastructure** - Creating systems that grow with demand  
-💡 **Continuous Learning** - Staying ahead in AI, psychology, and full-stack development  
-
----
-
+ 
 ## 📊 GitHub Stats
-
+ 
 ![ShulamitVizel's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShulamitVizel&show_icons=true&theme=radical)
-
+ 
 ---
-
-## 📌 Quick Links
-
-- 🔗 [GitHub Profile](https://github.com/ShulamitVizel)
-- 💼 [All Repositories](https://github.com/ShulamitVizel?tab=repositories)
-- 🚗 **DriveTech Focus** - Pioneering GenAI for psychological driver insights
-
----
-
-**Building the future where AI understands human psychology. 🧠✨**
-
-**Thanks for visiting! 🚀**
+ 
+📫 [GitHub](https://github.com/ShulamitVizel) · [Repositories](https://github.com/ShulamitVizel?tab=repositories)
